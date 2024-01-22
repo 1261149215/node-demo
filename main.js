@@ -1,8 +1,8 @@
 // 程序入口，越简单越好
 const app = require('./app');
 // 查看数据库是否连接成功
-const db = require('./app/databse');
-const infoService = require('./service/info.service');
+// const db = require('./app/databse');
+// const infoService = require('./service/info.service');
 // function test() {
 //     const data = {
 //       name: 'exampleName',

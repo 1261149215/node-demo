@@ -27,6 +27,5 @@ exports.query = function (sql, values) {
         });
       }
     });
-    
   });
 }
