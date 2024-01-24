@@ -3,6 +3,7 @@ const Router = require('koa-router');
 
 const {
   create,
+  search
 } = require('../controller/person.controller');
 
 // 中间件
@@ -12,11 +13,12 @@ const {
 //   verifyPermission
 // } = require('../middleware/auth.middleware');
 
-// 前缀：/info
+// 前缀：/person
 const PersonRouter = new Router({
   prefix: '/person'
 });
 PersonRouter.post('/create', create);
+PersonRouter.get('/search', search);
 
 
 // 导出
